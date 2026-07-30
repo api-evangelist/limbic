@@ -1,0 +1,73 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.limbic.ai/faq
+name: Limbic — Conformance & Compliance
+summary: >-
+  Limbic publishes its compliance and regulatory posture on its public FAQ and product
+  pages. It is a regulated medical-device vendor rather than an API platform: the
+  claims below are clinical-safety and information-security programs, not API-protocol
+  conformance. Limbic publishes no OpenAPI, OAuth or event specifications, so no
+  API-protocol conformance can be asserted.
+standards:
+- id: ukca-class-iia-medical-device
+  name: UKCA Class IIa medical device (MDR / UK MDR 2002)
+  conforms: true
+  evidence: >-
+    "Limbic is the only mental health AI chatbot with Class IIa medical device
+    certification (UK)." — https://www.limbic.ai/faq. Also stated on
+    https://www.limbic.ai/access as "a Class IIa medical device for conversational
+    patient intake and clinical decision support in behavioral health services".
+  scope: Limbic Access
+- id: hipaa
+  name: HIPAA
+  conforms: true
+  evidence: >-
+    "In addition to our Class IIa medical device status, we are HIPAA- and
+    GDPR-compliant." — https://www.limbic.ai/faq
+  note: Self-attested on the public FAQ; no third-party attestation report published.
+- id: gdpr
+  name: GDPR / UK GDPR
+  conforms: true
+  evidence: >-
+    "we are HIPAA- and GDPR-compliant" — https://www.limbic.ai/faq. Region-specific
+    privacy notices published at /privacy-uk, /privacy-us, /privacy-ca.
+- id: iso-27001
+  name: ISO/IEC 27001
+  conforms: true
+  evidence: >-
+    "We are also ISO 27001 compliant and hold a Cyber Essentials certification,
+    among other third-party validations." — https://www.limbic.ai/faq
+  note: Certificate number and certification body are not published publicly.
+- id: cyber-essentials
+  name: NCSC Cyber Essentials
+  conforms: true
+  evidence: >-
+    "hold a Cyber Essentials certification" — https://www.limbic.ai/faq
+- id: soc2
+  name: SOC 2
+  conforms: false
+  evidence: No SOC 2 claim found on limbic.ai (FAQ, product or legal pages) as of 2026-07-19.
+- id: oauth2
+  name: OAuth 2.0
+  conforms: false
+  evidence: No public API or authorization documentation published; no OpenAPI in repo.
+- id: openid-connect
+  name: OpenID Connect
+  conforms: false
+  evidence: /.well-known/openid-configuration returned 404 on limbic.ai (2026-07-19).
+- id: fhir
+  name: HL7 FHIR
+  conforms: false
+  evidence: >-
+    Limbic states EHR interoperability ("Limbic is interoperable with a number of EHR
+    systems" — https://www.limbic.ai/faq) but names no FHIR profile or version and
+    publishes no FHIR endpoint documentation.
+- id: rfc9457
+  name: RFC 9457 Problem Details
+  conforms: false
+  evidence: No public API surface to assess.
+regulatory_notices:
+- name: UK Field Safety Notice
+  url: https://www.limbic.ai/uk-field-safety-notice
+- name: Limbic Access Instructions for Use
+  url: https://www.limbic.ai/access-instructions-for-use

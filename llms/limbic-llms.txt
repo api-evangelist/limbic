@@ -1,0 +1,67 @@
+# Limbic
+
+> Clinical AI for mental healthcare. Limbic builds regulated conversational AI that
+> health plans, health systems, behavioral health providers and NHS Talking Therapies
+> services embed into their care pathways to handle patient intake, assessment,
+> triage and between-session support. Founded 2020; offices in New York and London.
+
+Important: Limbic does **not** publish a public developer API, developer portal,
+OpenAPI definition, SDKs, CLI or MCP server. Limbic Access is embedded into a
+provider's website with a script snippet under a commercial agreement, and EHR /
+patient-management integrations are delivered through customer engagements. Do not
+assume or invent API endpoints, authentication schemes or client libraries for Limbic.
+
+## Products
+
+- [Limbic Access](https://www.limbic.ai/access): Class IIa (UKCA) medical device for
+  conversational patient intake, assessment and clinical decision support. Embedded on
+  a provider website; produces a full clinical report with presenting problems and
+  diagnostic support.
+- [Limbic Care](https://www.limbic.ai/care): clinical AI companion delivering guided CBT
+  interventions and on-demand support between therapy sessions, configured per practice.
+- [The Limbic Layer](https://www.limbic.ai/layer): the proprietary clinical reasoning
+  layer that sits between the user and the underlying large language model to enforce
+  validated clinical guidance.
+
+## Who it serves
+
+- [Health Plans](https://www.limbic.ai/health-plans)
+- [Behavioral Health Providers](https://www.limbic.ai/community-bh-organizations-us)
+- [Health Systems](https://www.limbic.ai/health-systems)
+- [NHS Talking Therapies](https://www.limbic.ai/nhs-talking-therapies)
+
+## Compliance and regulatory
+
+- UKCA Class IIa medical device (Limbic Access)
+- HIPAA and GDPR compliant (self-attested)
+- ISO/IEC 27001 and NCSC Cyber Essentials
+- [FAQ — security and compliance answers](https://www.limbic.ai/faq)
+- [UK Field Safety Notice](https://www.limbic.ai/uk-field-safety-notice)
+- [Limbic Access Instructions for Use](https://www.limbic.ai/access-instructions-for-use)
+
+## Research
+
+- [Research index](https://www.limbic.ai/research)
+- [The Limbic Layer](https://www.limbic.ai/research/limbic-layer)
+- [Closing the accessibility gap](https://www.limbic.ai/research/closing-accessibility-gap)
+- [GitHub — replication code for published studies](https://github.com/limbicai)
+
+## Company
+
+- [About](https://www.limbic.ai/about)
+- [Blog](https://www.limbic.ai/blog)
+- [Case studies](https://www.limbic.ai/case-studies)
+- [Contact / sales](https://www.limbic.ai/contact-us)
+- [Terms of Use](https://www.limbic.ai/terms-of-use)
+- [Website Privacy Notice](https://www.limbic.ai/limbic-website-privacy-notice)
+
+## Optional
+
+- [Accessibility statement](https://www.limbic.ai/accessibility)
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/limbic/refs/heads/main/apis.yml)
+
+<!--
+generated: 2026-07-19
+method: generated
+source: apis.yml + https://www.limbic.ai/ (llms.txt not published; /llms.txt returned 404)
+-->

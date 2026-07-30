@@ -1,0 +1,34 @@
+generated: '2026-07-19'
+method: searched
+source: https://limbic.ai/
+name: Limbic — /.well-known probe
+summary: >-
+  All standard /.well-known discovery paths were probed on the limbic.ai apex host
+  on 2026-07-19. None are published. Recorded so re-runs do not re-probe blindly;
+  no WellKnown or SecurityTxt pointer is wired into apis.yml because nothing was found.
+hosts:
+- host: limbic.ai
+  probes:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /llms.txt
+    status: 404
+    file: null
+  - path: /robots.txt
+    status: 200
+    file: null
+    note: Present but only allows all and points at https://limbic.ai/sitemap.xml.
+found: []
