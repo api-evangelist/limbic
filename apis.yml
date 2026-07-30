@@ -1,19 +1,50 @@
 aid: limbic
 name: Limbic
-description: Limbic is a company surfaced as a portfolio company of khosla-ventures and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Limbic is a clinical AI company for mental healthcare, founded in 2020
+  and headquartered in New York with a London engineering base. Its two products —
+  Limbic Access, a Class IIa (UKCA) medical device for conversational patient intake,
+  assessment and clinical decision support, and Limbic Care, an AI companion delivering
+  guided CBT and on-demand support between therapy sessions — are embedded by health
+  plans, health systems, behavioral health providers and NHS Talking Therapies services.
+  Both are built on the proprietary "Limbic Layer", a clinical reasoning layer that
+  sits between the user and a large language model to enforce validated clinical guidance.
+  Limbic Access embeds into a provider website with a small script snippet rather than
+  a public developer API; the company publishes no developer portal, OpenAPI definitions
+  or SDKs, and integrates with EHR and patient management systems through customer
+  engagements. Research code accompanying its peer-reviewed studies (including work
+  published in Nature Medicine) is open on GitHub.'
 url: https://raw.githubusercontent.com/api-evangelist/limbic/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://uploads-ssl.webflow.com/667422dda15ffb3c3198a488/66b3d5d21755c0be946d1d54_og_image_main.webp
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - khosla-ventures
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profile
+x-tier-reason: enriched-no-public-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Healthcare
+- Mental Health
+- Artificial Intelligence
+- Clinical Decision Support
+- Digital Health
+- Medical Devices
+- Behavioral Health
+- NHS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +52,30 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/limbic-domain-security.yml
 - type: Website
   url: https://limbic.ai/
+- type: Blog
+  url: https://www.limbic.ai/blog
+- type: Support
+  url: https://www.limbic.ai/contact-us
+- type: HelpCenter
+  url: https://www.limbic.ai/faq
+- type: GitHubOrganization
+  url: https://github.com/limbicai
+- type: TermsOfService
+  url: https://www.limbic.ai/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.limbic.ai/limbic-website-privacy-notice
+- type: Compliance
+  url: conformance/limbic-conformance.yml
+- type: Conformance
+  url: conformance/limbic-conformance.yml
+- type: LLMsTxt
+  url: llms/limbic-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
