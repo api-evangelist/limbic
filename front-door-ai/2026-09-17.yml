@@ -1,0 +1,31 @@
+# Front Door AI Index — limbic — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: limbic
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: limbic.ai
+  final_host: limbic.ai
+  ownership: own
+  owner: limbic
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 29
+  host_score: 29
+  density: 32.04
+  words: 905
+  tiers:
+    agentic: 3
+    core: 26
+    model: 0
+  ambiguous: 3
+  top_terms:
+    AI: 22
+    agent: 3
+    AI assistant: 2
+    large language model: 2
+    LLMs: 1
+    chatbot: 1
+    generative ai: 1
